@@ -1,17 +1,15 @@
+#include <stdlib.h>
 #include <stdio.h>
-
 /**
- * main -Entry point
+ * main - Entry point
  *
- * Return: Always 0 (success)
+ * Description: 'this code for print text on screen'
  *
+ * Return: Always 0 (Success)
  */
 int main(void)
-{
-	char i
-	for (i = 'a'; i <= 'z'; i++)
-		       putchar(i);
-
+{char x = 'a';
+for (x = 'a'; x <= 'z'; x++)
+	putchar(x);
 putchar('\n');
-	return (0);
-}
+return (0); }
