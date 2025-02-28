@@ -6,9 +6,9 @@
  *
  * Description: 'This code for print text on screen'
  *
- * Retur: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
- int main(void)
+int main(void)
 {
 int n;
 	int a;
