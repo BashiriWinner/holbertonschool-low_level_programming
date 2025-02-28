@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - Entry point 
+ *  main - Entry point
  *
  * Description: this code for print text on screen
  *
@@ -16,5 +16,5 @@ int main(void)
 
 		putchar (x);
 	putchar ('\n');
-        return (0);
+	return (0);
 }
