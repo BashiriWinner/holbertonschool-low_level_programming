@@ -5,18 +5,14 @@
  *
  * Return: Always 0 (Success)
  */
-void print_alphabet(void);
-
+void print_alphabet(void)
 {
-
 	char a[] = "abcdefghijklmnopqrstuvwxyz\n";
-        int i = 0; 
+	int i = 0;
 
-        while (a[i])
-
-	    {
+	while (a[i])
+	{
 		_putchar(a[i]);
 		i++;
 	}
-
 }
