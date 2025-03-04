@@ -1,18 +1,22 @@
 #include "main.h"
-
 /**
- * print_alphabet - Entry point
- *
+ * print_alphabet_x10 - prints alphabet 10 times
  * Return: Always 0 (Success)
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
-	char a[] = "abcdefghijklmnopqrstuvwxyz\n";
-	int i = 0;
+	char kamal = 'a';
+	int a = 0;
 
-	while (a[i])
+	while (a < 10)
 	{
-		_putchar(a[i]);
-		i++;
+		while (kamal <= 'z')
+		{
+			_putchar(kamal);
+			kamal++;
+		}
+		_putchar('\n');
+		a++;
+		kamal = kamal - 26;
 	}
 }
