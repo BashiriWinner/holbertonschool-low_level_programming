@@ -5,8 +5,8 @@
  * Return: Always 0 (Success)
  */
 void jack_bauer(void)
-{
-	int i = 0, j = 0;
+{	
+	::int i = 0, j = 0;
 
 	while (i < 24)
 	{
