@@ -1,11 +1,12 @@
 #include "main.h"
 /**
- * add - check lowercase.
- * @a: variable1
- * @b: variable2
- * Return: result of addition
+ * add - Entry point
+ * @n: variable
+ * @m: variable2
+ *
+ * Return: Always 0 (Success)
  */
-int add(int a, int b)
+int add(int n, int m)
 {
-	return (a + b);
+return (n + m);
 }
