@@ -1,18 +1,20 @@
 #include "main.h"
 /**
- * _isdigit - Entry point
- * @n:variable
+ * _isdigit - this function test is digit or not
  *
- * Return: Always 0 (Success)
+ * @c: var
+ *
+ * Return: zero
  */
-int _isdigit(int c);
+
+int _isdigit(int c)
 {
-	if (c >= 48 && c <= 57)
-	{
-		return (1);
-	}
-	else
-	{
-		return (0);
-	}
+        if (c >= 48 && c <= 57)
+        {
+                return (1);
+        }
+        else
+        {
+                return (0);
+        }
 }
