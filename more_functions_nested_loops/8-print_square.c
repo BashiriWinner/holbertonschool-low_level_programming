@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_square - Entry point 
+ * print_square - Entry point
  * @size: var
  * Return: Always 0 (Success)
  */
@@ -15,7 +15,7 @@ void print_square(int size)
 	}
 	else
 	{
-		for (i = 0; i < size; i++);
+		for (i = 0; i < size; i++)
 		{
 			for (j = 0; j < size; j++)
 			{
