@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * *_strncpy - Entry point 
+ * *_strncpy - Entry point
  * @dest: input of function
  * @src: src
  * @n: n
