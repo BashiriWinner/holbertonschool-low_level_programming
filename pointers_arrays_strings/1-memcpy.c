@@ -1,11 +1,11 @@
 #include "main.h'
 /**
- * *_memcpy - Entry point
- * @src: src
- * @dest: input of function
- * @n: var
- * Return: Always 0
- */
+*_memcpy - Entry point
+* @src: src
+* @dest: input of function
+* @n: var
+* Return: Always 0
+*/
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
 unsigned int i;
