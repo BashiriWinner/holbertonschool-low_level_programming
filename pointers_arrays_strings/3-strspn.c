@@ -3,7 +3,7 @@
  * int _strspn - check the code
  * @s: - s
  * @accept: - accept
- * Return: Always 0
+ * Return: Always 0.
  */
 unsigned int _strspn(char *s, char *accept)
 {
