@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * int _strspn - check the code
+ * _strspn - check the code
  * @s: - s
  * @accept: - accept
  * Return: Always 0.
