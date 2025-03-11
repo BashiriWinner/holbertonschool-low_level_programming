@@ -1,6 +1,6 @@
 #include "main.h'
 /**
-*_memcpy - Entry point
+*_memcpy - check the code
 * @src: src
 * @dest: input of function
 * @n: var
