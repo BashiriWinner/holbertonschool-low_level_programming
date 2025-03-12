@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_diagsums - check the code 
+ * print_diagsums - check the code
  * @a: a
  * @size: size
  * Return: Always 0
