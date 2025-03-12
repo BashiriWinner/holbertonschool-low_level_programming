@@ -2,7 +2,7 @@
 /**
  * print_chessboard - check the code
  *
- *@: var
+ *@a: var
  *
  * Return: Always 0.
  */
