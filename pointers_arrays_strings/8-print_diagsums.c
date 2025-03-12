@@ -13,7 +13,7 @@
      {
          sum1 = sum1 + a[i];
      }
-     for(size - 1; j <= (size * size) - size; j + size - 1)
+     foir(j = size - 1; j <= (size * size) - size; j =  j + size - 1)
      {
          sum2 = sum2 + a[j];
      }
