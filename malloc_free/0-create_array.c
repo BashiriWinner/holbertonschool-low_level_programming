@@ -3,7 +3,7 @@
 /**
  * create_array - Entry point
  *
- * @s: size of array
+ * @size: size of array
  * @c: char
  *
  * Return: Always 0
