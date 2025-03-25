@@ -1,43 +1,50 @@
-#include "dog.h"
-#include <string.h>
 #include <stdlib.h>
-#include <stdio.h>
-
+#include "dog.h"
 /**
- * new_dog - creates new dog based on struct
- * @name: name for the new dog (char *)
- * @age: age of the dog (float)
- * @owner: owner of the dog (char *)
- *
- * Return: new dog
- */
-
+* new_dog - creates a new dog
+* @name: name of dog
+* @age: age of dog
+* @owner: owner of dog
+*
+* Return: pointer to new dog
+*/
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	dog_t *new_dog;
+	unsigned int nl, ol, i;
+	dog_t *d;
 
-	new_dog = malloc(sizeof(dog_t));
+	if (name == NULL || owner == NULL)
+		return (NULL);
+	d = malloc(sizeof(dog_t));
 
-	if (!new_dog)
+	if (d == NULL)
+		return (NULL);
+	for (nl = 0; name[nl]; nl++)
+	;
+	nl++;
+
+	d->name = malloc(nl * sizeof(char));
+	if (d->name == NULL)
 	{
-		free(new_dog);
+		free(d);
 		return (NULL);
 	}
+	for (i = 0; i < nl; i++)
+		d->name[i] = name[i];
 
-	new_dog->name = malloc(sizeof(char) * strlen(name) + 1);
-	new_dog->owner = malloc(sizeof(char) * strlen(owner) + 1);
+	d->age = age;
+	for (ol = 0; owner[ol]; ol++)
+	;
+	ol++;
 
-	if (!new_dog->name || !new_dog->owner)
+	d->owner = malloc(ol * sizeof(char));
+	if (d->owner == NULL)
 	{
-		free(new_dog->name);
-		free(new_dog->owner);
-		free(new_dog);
+		free(d->name);
+		free(d);
 		return (NULL);
 	}
-
-	strcpy(new_dog->name, name);
-	strcpy(new_dog->owner, owner);
-	new_dog->age = age;
-
-	return (new_dog);
+	for (i = 0; i < ol; i++)
+		d->owner[i] = owner[i];
+	return (d);
 }
