@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include "dog.h"
+#ifndef _DOG_H_
+#define _DOG_H_
 /**
  * struct dog - creates a dog struct
  *@name: name of dog
