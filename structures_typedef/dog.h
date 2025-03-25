@@ -2,9 +2,9 @@
 #define _DOG_Hi_
 /**
  * struct dog - creates a dog struct
- *@name: name of dog
- *@age: age of dog
- *@owner: name of owner
+ * @name: name of dog
+ * @age: age of dog
+ * @owner: name of owner
  *
  * Description: struct of the dog table
  */
