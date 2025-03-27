@@ -1,4 +1,4 @@
-#include <stdio.h>
+#ifndef "function_pointers.h"
 #include "function_pointers.h"
 
 /**
