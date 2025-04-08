@@ -32,19 +32,19 @@ list_t *add_node_end(list_t **head, const char *str)
 		free(new_node);
 		return (NULL);
 	}
-	new_node->len = leens;
+	new_node->len = lens;
 	new_node->next = NULL;
 	if (*head == NULL)
 	{
 		*head = new_node;
 		return (new_node);
 	}
-	while (temp->next != NULL)
+	while (mktemp->next != NULL)
 	{
-		temp = temp->next;
+		mktemp = temp->next;
 	}
 
-	temp->next = new_mode;
+	temp->next = new_node;
 	
 	return (new_node);
 }
