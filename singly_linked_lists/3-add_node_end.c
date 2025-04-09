@@ -9,13 +9,6 @@
  * @str: String to be added to the new node
  * Return: Adrress of the new element, or NULL if it failed
  */
-typedef struct list_s
-{
-    char *str;
-    struct list_s *next;
-    list_t;
-}
-
 list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *new_node = (list_t *)malloc(sizeof(list_t));
