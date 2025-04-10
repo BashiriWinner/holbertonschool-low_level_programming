@@ -2,7 +2,7 @@
 #include "lists.h"
 /**
  * dlistint_len - function that returns the number of elements 
- * in a linked dlistint_t list.
+ * in a linked dlistint_t list
  * @h: pointer named head and this first node
  * Return: the len of nodes
  */
